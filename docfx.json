@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "./ScottPlot/src/ScottPlot5",
+          "files": [
+            "ScottPlot5/ScottPlot.csproj",
+			"ScottPlot5 Controls/ScottPlot.Avalonia/ScottPlot.Avalonia.csproj",
+			"ScottPlot5 Controls/ScottPlot.Blazor/ScottPlot.Blazor.csproj",
+			"ScottPlot5 Controls/ScottPlot.Eto/ScottPlot.Eto.csproj",
+			"ScottPlot5 Controls/ScottPlot.Maui/ScottPlot.Maui.csproj",
+			"ScottPlot5 Controls/ScottPlot.OpenGL/ScottPlot.OpenGL.csproj",
+			"ScottPlot5 Controls/ScottPlot.WinForms/ScottPlot.WinForms.csproj",
+			"ScottPlot5 Controls/ScottPlot.WinUI/ScottPlot.WinUI.csproj",
+			"ScottPlot5 Controls/ScottPlot.WPF/ScottPlot.WPF.csproj",
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "ScottPlot-DocFX",
+      "_appTitle": "ScottPlot-DocFX",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}
