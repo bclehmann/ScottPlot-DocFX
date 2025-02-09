@@ -16,7 +16,7 @@
           ]
         }
       ],
-      "dest": "_site/api"
+      "dest": "api"
     }
   ],
   "build": {
