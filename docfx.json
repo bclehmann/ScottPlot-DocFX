@@ -45,7 +45,7 @@
     "globalMetadata": {
       "_appName": "ScottPlot-DocFX",
       "_appTitle": "ScottPlot-DocFX",
-      "_enableSearch": true,
+      "_enableSearch": false,
       "pdf": false
     }
   }
