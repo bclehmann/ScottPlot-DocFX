@@ -28,10 +28,15 @@ jobs:
       uses: actions/checkout@v4
       with:
           submodules: 'true'
+    
     - name: Dotnet Setup
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 8.x
+
+    - name: Restore Workloads
+      working-directory: ./ScottPlot/src/ScottPlot5/
+      run: dotnet workload restore
 
     - run: dotnet tool update -g docfx
     - run: docfx ./docfx.json
