@@ -33,6 +33,9 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 8.x
+    
+    - name: Install MAUI Workload
+      run: dotnet workload install maui
 
     - name: Restore Workloads
       working-directory: ./ScottPlot/src/ScottPlot5/
