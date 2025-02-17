@@ -7,12 +7,12 @@
           "src": "./ScottPlot/src/ScottPlot5",
           "files": [
             "ScottPlot5/ScottPlot.csproj",
-			"ScottPlot5 Controls/ScottPlot.Avalonia/ScottPlot.Avalonia.csproj",
-			"ScottPlot5 Controls/ScottPlot.Blazor/ScottPlot.Blazor.csproj",
-			"ScottPlot5 Controls/ScottPlot.Eto/ScottPlot.Eto.csproj",
-			"ScottPlot5 Controls/ScottPlot.OpenGL/ScottPlot.OpenGL.csproj",
-			"ScottPlot5 Controls/ScottPlot.WinForms/ScottPlot.WinForms.csproj",
-			"ScottPlot5 Controls/ScottPlot.WPF/ScottPlot.WPF.csproj",
+            "ScottPlot5 Controls/ScottPlot.Avalonia/ScottPlot.Avalonia.csproj",
+            "ScottPlot5 Controls/ScottPlot.Blazor/ScottPlot.Blazor.csproj",
+            "ScottPlot5 Controls/ScottPlot.Eto/ScottPlot.Eto.csproj",
+            "ScottPlot5 Controls/ScottPlot.OpenGL/ScottPlot.OpenGL.csproj",
+            "ScottPlot5 Controls/ScottPlot.WinForms/ScottPlot.WinForms.csproj",
+            "ScottPlot5 Controls/ScottPlot.WPF/ScottPlot.WPF.csproj",
           ]
         }
       ],
